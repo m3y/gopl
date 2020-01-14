@@ -1,0 +1,20 @@
+name: pixela
+
+on:
+  push:
+    branches:
+    - master
+
+jobs:
+
+  increment:
+    runs-on: ubuntu-18.04
+    steps:
+    - uses: actions/checkout@v1
+
+    - name: increment
+      uses: peaceiris/actions-pixela@v1
+      env:
+        PIXELA_USER_TOKEN: ${{ secrets.PIXELA_USER_TOKEN }}
+      with:
+        args: pixel increment -u m3y -g gopl
