@@ -1,7 +1,7 @@
 # The Go Programming Language
-[![pixela][pixela-badge]][pixela]
+[![pixela][pixela-graph]][pixela]
 
-[pixela-badge]: https://pixe.la/v1/users/m3y/graphs/gopl?mode=badge
+[pixela-graph]: https://pixe.la/v1/users/m3y/graphs/gopl
 [pixela]: https://pixe.la/v1/users/m3y/graphs/gopl.html
 
 ## Overview
